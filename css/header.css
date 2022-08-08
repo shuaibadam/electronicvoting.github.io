@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav .card{
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+
+}
+.cube .logo{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 30%;
+    width: 30%;
+}

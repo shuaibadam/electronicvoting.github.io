@@ -1,0 +1,82 @@
+*{
+    padding:0px;
+    margin:0px;
+    color: white;
+}
+.const{
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px rgb(14, 13, 13);
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+  }
+  input{
+      width: 100%;
+      margin-left: 10%;
+      text-align: center;
+      padding-top: 10px;
+      background-color: rgb(70, 68, 68);;
+      border: 1px solid white;
+      border-radius: 10px;
+  }
+  input:focus{
+      outline: none;
+      border: 1px dashed white;
+  }
+  form, .form2{
+    padding: 0px 50px;
+}
+.btn1{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+.admin{
+    position: relative;
+}
+#admin{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    border: 0px ;
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:485px) {
+    .const{
+        width: 98%;
+        height: 60vh;
+    }
+    form, .form2{
+        padding: 0px 10px;
+    }
+}
+@media screen and (min-width:485px) and (max-width:992px) {
+    .const{
+        width: 60%;
+        height: 65vh;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .const{
+        width: 50%;
+        height: 80vh;
+    }
+
+}
+@media screen and (min-width:1200px){
+    .const{
+        width: 45%;
+        height: 80vh;
+    }
+    form button{
+        width: 25%;
+
+    }
+}

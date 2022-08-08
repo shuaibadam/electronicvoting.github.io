@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="files/bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="files/bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Downloads/fontawesome-free-6.1.1-web%20(1)/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class=" const bg-dark my-4 m-auto text-center">
+            <form  action="./config/signup-c.php" method="POST" enctype="multipart/form-data" >
+                <h1 class="text-light">Enrollment form</h1>
+                <label class="mt-1" for="fullname">Fullname:</label><br>
+                <input type="text" name="fullname" placeholder="Enter your full Name" class="inputs" required="required" ><br>
+                <label class="mt-1" for="email">Email:</label><br>
+                <input type="email" name="email" placeholder="Enter your Email" class="inputs" required="required"><br>
+                <label class="mt-1" for="email">National identification number:</label><br>
+                <input type="text" name="nin" placeholder="National identification number    " class="inputs" required="required"><br>
+                <label class="mt-1" for="password">password:</label><br>
+                <input type="password" name="password" placeholder="New password" class="inputs" required="required"><br>
+                <label class="mt-1" for="cpassword">Confirm password:</label><br>
+                <input type="password" name="cpassword" placeholder="Confirm password" class="inputs" required="required"><br>
+                <label class="mt-1" for="image">Image:</label><br>
+                <input type="file" name="file"  class="inputs" required="required"><br>
+                <button class="btn btn-secondary my-3" type="submit" name="submit" >Enroll</button><br>
+            </form>
+            <div class="form2">
+                <span>Already Enrolled?</span> <a href="login.php"><button class="btn1 mx-4 p-1" >Login</button></a>
+            </div>
+        </div>
+    </div>
+</body>
